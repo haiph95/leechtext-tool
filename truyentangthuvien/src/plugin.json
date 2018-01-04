@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "truyenvl.net",
+    "author": "Hải Phạm",
+    "version": 1.1,
+    "regex": "https{0,1}://(www.){0,1}truyen.tangthuvien.vn/doc-truyen/.*?/{0,1}",
+    "info": "Lấy truyện từ truyen.tangthuvien.com",
+    "icon": "icon.png"
+  },
+  "class": {
+    "InfoGetter": "Info.class",
+    "ListGetter": "ListChap.class",
+    "ChapGetter": "Chapter.class"
+  }
+}
